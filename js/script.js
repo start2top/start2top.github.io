@@ -71,7 +71,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     // Отправка формы в ТГ бот
     const ajaxSend = async (formData) => {
-        const response = await fetch("telegram.php", {
+        const response = await fetch("https://start2top.github.io/telegram.php", {
             method: "POST",
             body: formData
         });
